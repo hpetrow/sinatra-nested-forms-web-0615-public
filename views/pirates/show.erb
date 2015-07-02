@@ -1,7 +1,21 @@
 <h1>Display your Pirate here</h1>
-
+binding.pry
+<p>
+Name: <%=@pirate[:name]%><br>
+Weight: <%=@pirate[:weight]%><br>
+Height: <%=@pirate[:height]%>
+</p>
 
 <h2>Display your first ship here</h2>
-
+<p>
+Name: <%=@pirate[:ships]['0'][:name]%><br>
+Type: <%=@pirate[:ships]['0'][:type]%><br>
+Booty: <%=@pirate[:ships]['0'][:booty]%>
+</p>
 
 <h2>Display your second ship here</h2>
+<p>
+Name: <%=@pirate[:ships]['1'][:name]%><br>
+Type: <%=@pirate[:ships]['1'][:type]%><br>
+Booty: <%=@pirate[:ships]['1'][:booty]%>
+</p>
